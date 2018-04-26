@@ -4,8 +4,8 @@ Basic node.js application using Twilio to send an outbound SMS
 This app uses process.env variables (not included int this repository) that need to be set in a project .env file.  Make a .env file in your project folder and create two variables called accountSID and authToken and populate these with your Twilio account SID and Auth Token for your Twilio account.
 
 **Example**  
-   _accountSID=<enter your twilio account SID>_  
-   _authToken=<enter your twilio auth Token>_  
+   _accountSID=**enter your twilio account SID**_  
+   _authToken=**enter your twilio auth Token**_  
 
 ## Requirements
 [NodeJS and NPM](http://nodejs.org/download)   
