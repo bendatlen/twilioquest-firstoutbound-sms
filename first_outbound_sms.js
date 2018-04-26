@@ -1,5 +1,7 @@
-var accountSid = '##################################'; // My Test Account SID
-var authToken = '################################';   // My Test Account Auth Token
+require('dotenv').load();
+
+var accountSid = process.env.accountSid; // My Test Account SID
+var authToken = process.env.authToken;   // My Test Account Auth Token
 
 var twilio = require('twilio');
 var client = new twilio(accountSid, authToken);
