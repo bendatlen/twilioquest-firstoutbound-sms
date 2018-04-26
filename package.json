@@ -1,0 +1,14 @@
+{
+  "name": "firstoutboundsms",
+  "version": "1.0.0",
+  "description": "Twilio Quest basic outbound SMS application",
+  "main": "first_outbound_sms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ben datlen",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^3.15.1"
+  }
+}
